@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototipo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="jquery-ui.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="contact" action="" method="post">
+            <h3>Protótipo</h3>
+            <h4>Protótipo de um sistema de sucessão de bens</h4>
+            <label>Selecionar data:</label>
+            <fieldset>
+                <input type="text" tabindex="2" id="datepicker" readonly>
+            </fieldset>
+            <label>Planner:</label>
+            <fieldset>
+                <input type="text" tabindex="3" id="planner" required>
+            </fieldset>
+            <label>Banker:</label>
+            <fieldset>
+                <select id="bankers" name="bankers" tabindex="4" required>
+                    <option value="guilherme">Guilherme</option>
+                    <option value="ricardo">Ricardo</option>
+                    <option value="julia">Julia</option>
+                    <option value="gabriela">Gabriela</option>
+                    <option value="fabio">Fabio</option>
+                </select>  
+            </fieldset>
+            <label>Head:</label>
+            <fieldset>
+                <select id="heads" name="heads" tabindex="5" required readonly>
+                    <option value="guilherme_head">Guilherme - Head</option>
+                    <option value="ricardo_head">Ricardo - Head</option>
+                    <option value="julia_head">Julia - Head</option>
+                    <option value="gabriela_head">Gabriela - Head</option>
+                    <option value="fabio_head">Fabio - Head</option>
+                </select>  
+            </fieldset>
+            <label>Segmento:</label>
+            <fieldset>
+                <select id="segmentos" name="segmentos" tabindex="6" required readonly>
+                    <option value="guilherme_seg">Guilherme - Segmento</option>
+                    <option value="ricardo_seg">Ricardo - Segmento</option>
+                    <option value="julia_seg">Julia - Segmento</option>
+                    <option value="gabriela_seg">Gabriela - Segmento</option>
+                    <option value="fabio_seg">Fabio - Segmento</option>
+                </select>  
+            </fieldset>
+            <label>Carteira:</label>
+            <fieldset>
+                <select id="carteiras" name="carteiras" tabindex="7" required readonly>
+                    <option value="cart_1"></option>
+                    <option value="cart_2"></option>
+                    <option value="cart_3"></option>
+                    <option value="cart_4"></option>
+                    <option value="cart_5"></option>
+                </select>  
+            </fieldset>
+            <label>Composição familiar:</label>
+            <fieldset>
+                <!-- <input type="text" tabindex="8" id="composicao_familiar"> -->
+                <textarea tabindex="8" required></textarea>
+            </fieldset>
+            <label>Tema:</label>
+            <fieldset>
+                <select id="temas" name="temas" tabindex="9" required>
+                    <option value="tributario">Tributário</option>
+                    <option value="societario">Societário</option>
+                    <option value="familia_sucessoes">Familia e Sucessões</option>
+                    <option value="internacional">Internacional</option>
+                </select>  
+            </fieldset>
+            <label>Ementa:</label>
+            <fieldset>
+                <textarea tabindex="10" required></textarea>
+            </fieldset>
+            <label>Próximos passos:</label>
+            <fieldset>
+                <textarea tabindex="11" required></textarea>
+            </fieldset>
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+            </fieldset>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="jquery-ui-pt-BR.js"></script>
+    <script src="script.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+            <script src="script.js"></script> -->
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"></script>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="Stylesheet"
+        type="text/css" /> -->
+</body>
+
+</html>
